@@ -1,35 +1,48 @@
 # Website Fingerprinting Lab
 
-## Overview
-This project implements a JavaScript-based cache-occupancy side-channel attack to perform website fingerprinting. The goal is to analyze whether different websites can be distinguished based on microarchitectural behavior observed through browser-based timing and cache effects.
+**Graduate Cybersecurity Coursework | University of Central Florida**
 
-## What I Did
+## Overview
+
+This project explores website fingerprinting through a JavaScript-based cache-occupancy side-channel attack. The goal was to investigate whether different websites could be distinguished based on microarchitectural behavior observed through browser timing and cache effects.
+
+## What I Worked On
+
 - Implemented cache-occupancy trace collection using JavaScript
 - Collected and processed side-channel traces from different website scenarios
 - Analyzed timing and cache behavior patterns
-- Applied machine learning models (Random Forest) to classify website activity based on traces
-- Evaluated model performance using classification metrics
+- Used Random Forest machine learning models to classify website activity based on collected traces
+- Evaluated classification results using performance metrics
+- Investigated the underlying behavior of the observed signals
+- Evaluated potential countermeasures
 
-## Technologies Used
+## Technologies & Tools
+
 - JavaScript
 - Python
-- NumPy / Pandas
+- NumPy
+- Pandas
 - Scikit-learn
-- Browser developer tools
-- Linux command line
+- Browser Developer Tools
+- Linux
 
 ## Key Concepts
+
 - Cache side-channel attacks
 - Website fingerprinting
 - Browser-based security vulnerabilities
-- Machine learning classification of system traces
+- Microarchitectural behavior
+- Machine learning classification
+- Security countermeasures
 
 ## Project Structure
-- part1/ – JavaScript warm-up timing analysis
-- part2/ – Trace collection and ML classification
-- part3/ – Root cause analysis of signal behavior
-- part4/ – Countermeasure evaluation
-- report.pdf – Final written report
 
-## Note
+- `part1/` — JavaScript timing analysis
+- `part2/` — Trace collection and machine learning classification
+- `part3/` — Root cause analysis of observed signal behavior
+- `part4/` — Countermeasure evaluation
+- `report.pdf` — Final written report
+
+## Academic Context
+
 This project was completed as part of a graduate-level cybersecurity course at the University of Central Florida.
